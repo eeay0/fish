@@ -7,6 +7,7 @@ if status is-interactive
 
     set -x EDITOR nvim
     set -x PATH $PATH $HOME/.bin
+    set -x PATH $PATH $HOME/.cargo/bin/
     set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
 
     alias ls="eza --sort type"
